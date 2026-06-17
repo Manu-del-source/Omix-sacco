@@ -56,3 +56,5 @@ function Navigation({ onAuthClick, user }) {
     );
   } catch (error) { console.error('Navigation error:', error); return null; }
 }
+
+window.Navigation = Navigation;

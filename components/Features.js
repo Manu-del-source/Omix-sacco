@@ -33,3 +33,5 @@ function Features() {
     );
   } catch (error) { console.error('Features error:', error); return null; }
 }
+
+window.Features = Features;

@@ -39,3 +39,5 @@ function Pricing() {
     );
   } catch (error) { console.error('Pricing error:', error); return null; }
 }
+
+window.Pricing = Pricing;

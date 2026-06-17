@@ -25,3 +25,5 @@ function Stats() {
     );
   } catch (error) { console.error('Stats error:', error); return null; }
 }
+
+window.Stats = Stats;

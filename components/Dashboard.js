@@ -117,7 +117,7 @@ function Dashboard({ user }) {
               onClick={() => setShowDepositModal(true)}
               className="btn-primary flex items-center gap-2"
             >
-              <i className="lucide-plus-circle w-5 h-5"></i>
+              <div className="icon-plus-circle w-5 h-5"></div>
               Make a Deposit
             </button>
           </div>
@@ -190,3 +190,5 @@ function Dashboard({ user }) {
     );
   } catch (error) { console.error('Dashboard error:', error); return null; }
 }
+
+window.Dashboard = Dashboard;

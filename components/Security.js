@@ -33,3 +33,5 @@ function Security() {
     );
   } catch (error) { console.error('Security error:', error); return null; }
 }
+
+window.Security = Security;

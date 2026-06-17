@@ -42,3 +42,5 @@ function Hero() {
     );
   } catch (error) { console.error('Hero error:', error); return null; }
 }
+
+window.Hero = Hero;

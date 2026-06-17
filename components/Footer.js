@@ -46,3 +46,5 @@ function Footer() {
     );
   } catch (error) { console.error('Footer error:', error); return null; }
 }
+
+window.Footer = Footer;

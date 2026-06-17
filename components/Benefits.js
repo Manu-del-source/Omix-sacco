@@ -33,3 +33,5 @@ function Benefits() {
     );
   } catch (error) { console.error('Benefits error:', error); return null; }
 }
+
+window.Benefits = Benefits;

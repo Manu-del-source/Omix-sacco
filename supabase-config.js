@@ -3,5 +3,5 @@
 const SUPABASE_URL = 'YOUR_SUPABASE_URL';
 const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
 
-const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-window.supabase = supabase; // Make it globally accessible for our components
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+window.supabase = supabaseClient; // Make it globally accessible for our components

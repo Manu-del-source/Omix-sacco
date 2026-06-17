@@ -35,3 +35,5 @@ function Testimonials() {
     );
   } catch (error) { console.error('Testimonials error:', error); return null; }
 }
+
+window.Testimonials = Testimonials;
